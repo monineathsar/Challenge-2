@@ -5,8 +5,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: black;
-    background-color: rgb(255, 255, 193);
+    color: #6D6875;
+    background-color: #FFCDB2;
     line-height: 1.5; 
 }
 
@@ -19,20 +19,22 @@ header {
     align-items: center;
 }
 header h1 {
-    color: rgb(217, 142, 155);
+    color: #6D6875;
     margin-left: 20px;
 
 }
 nav {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    border-bottom: #B5838D;
+    
 }
 
 nav a {
     text-decoration: none;
     padding: 10px;
-    color: rgb(217, 142, 155);
+    color: #6D6875;
     margin-right: 20px;
     background-position: bottom;
 }
@@ -50,8 +52,16 @@ main {
     padding: 10px;
 }
 
-.page-section h2 {
-    border-bottom: 5px solid black;
+.aboutMe-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    margin: 20px;
+    padding: 10px;
+}
+
+.page-section h2, .aboutMe-section h2 {
+    border-bottom: 5px solid #E5989B;
     font-size: 20px;
 }
 
@@ -62,6 +72,15 @@ main {
 div a {
     text-decoration: none;
     padding: 0px;
-    color: black;
+    color: #6D6875;
     margin-right: 20px;
+}
+
+.div-aboutMe {
+    display: flex;
+    background-color: #FFCDB2;
+}
+
+@media screen {
+    
 }
