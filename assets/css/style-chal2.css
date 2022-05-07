@@ -1,12 +1,12 @@
-*{
-    box-sizing: border-box;
+* {
+
 }
 body {
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #6D6875;
-    background-color: #FFCDB2;
+    color: #271D1B;
+    background-color: #F8F1F1;
     line-height: 1.5; 
 }
 
@@ -15,28 +15,30 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
 }
 header h1 {
-    color: #6D6875;
-    margin-left: 20px;
+    color: #F8F1F1;
+    padding: 5px 10px 5px 50px;
+    background-color: #E5989B;
 
 }
-nav {
+header nav {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    border-bottom: #B5838D;
-    
+    flex-wrap: wrap;
+    font-size: large;
+    margin-left: 30px;
+    padding: 15px;
 }
 
 nav a {
+    margin-left: 30px;
+    padding: 15px;
     text-decoration: none;
-    padding: 10px;
-    color: #6D6875;
-    margin-right: 20px;
-    background-position: bottom;
+    color: #271D1B;
+    border-bottom: #B5838D;
 }
 
 main {
@@ -52,35 +54,31 @@ main {
     padding: 10px;
 }
 
-.aboutMe-section {
-    display: flex;
-    flex-direction: column;
-    flex-wrap:nowrap;
-    margin: 20px;
-    padding: 10px;
-}
-
-.page-section h2, .aboutMe-section h2 {
+.page-section h2 {
     border-bottom: 5px solid #E5989B;
     font-size: 20px;
 }
 
-.page-section h3 {
-    
+.aboutMeDiv {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.aboutMeSection {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin-left: 20px;
 }
 
 div a {
-    text-decoration: none;
-    padding: 0px;
-    color: #6D6875;
-    margin-right: 20px;
-}
-
-.div-aboutMe {
-    display: flex;
-    background-color: #FFCDB2;
-}
-
-@media screen {
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    color: #271D1B;
     
 }
