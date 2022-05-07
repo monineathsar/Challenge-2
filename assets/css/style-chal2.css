@@ -11,26 +11,45 @@ body {
 }
 
 header {
-    padding: 10px 15px 10px 30px;
+    padding: 0px 0px 0px 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
-    align-items: center;
+    align-items: flex-end;
 }
+
 header h1 {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
     color: #F8F1F1;
-    padding: 5px 10px 5px 50px;
+    padding: 20px 85px 0px 50px;
+    margin: 0px;
     background-color: #E5989B;
 
 }
+
+#headerComment {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    color: #271D1B;
+    font-style: italic;
+    align-items: flex-start; 
+    margin-top: 0px;
+    padding-left: 30px;
+}
+
 header nav {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     font-size: large;
     margin-left: 30px;
-    padding: 15px;
+    padding: 0px;
 }
 
 nav a {
@@ -38,11 +57,14 @@ nav a {
     padding: 15px;
     text-decoration: none;
     color: #271D1B;
-    border-bottom: #B5838D;
+}
+
+h2 {
+    font-size: larger;
 }
 
 main {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -68,9 +90,9 @@ main {
 
 .aboutMeSection {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: flex-start;
     margin-left: 20px;
 }
@@ -80,5 +102,4 @@ div a {
     margin: 20px;
     padding: 20px;
     color: #271D1B;
-    
 }
